@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#left {
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    
+}
+
+#left h1 {
+
+    font-size: 9rem;
+    line-height: 8rem;
+    font-weight: 400;
+}
+
+#left-bottom {
+
+    
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#colors {
+
+    padding: 1rem 2rem;
+    width: fit-content;
+    border-radius: 4rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#colors h5 {
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+
+#colors1 {
+    
+    background-color: #2596be;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+#colors2 {
+
+    background-color: #7a8462;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+#left-bottom h2 {
+
+    padding-top: 2.5rem;
+
+}
+
+#left-bottom p {
+    
+    padding-top: 1.7rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#right {
+
+    width: 40%;
+    padding-right: 15rem;
+    position: relative;
+}
+
+#top-line{
+
+    padding-top: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rating {
+
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#rating h4 {
+
+    font-size: 1rem;
+    padding-right: .7rem;
+}
+
+#image img {
+    
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#black-gola {
+
+position: absolute;
+height: 90px;
+width: 90px;
+border-radius: 50%;
+background-color: black;
+right: 29%;
+top: 55%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#black-gola h5 {
+
+    color: white;
+}
+
+#rotated {
+
+    transform: rotate(-90deg);
+    position:absolute;
+    top: 60%;
+    left: -34%;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
